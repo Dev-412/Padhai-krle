@@ -1,6 +1,6 @@
 import socket
 s=socket.socket()
-s.connect(('<SERVER\'s IP>',4567))
+s.connect(('192.168.104.103',4567))
 while(True):
 
     packet=input("NOTE: \'?\' is compulsory and type \'quit()\' for exit.\nEnter something: ")
