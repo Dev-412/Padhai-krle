@@ -1,6 +1,6 @@
 import socket
 s=socket.socket()
-s.bind(('<IP ADDRESS>',4567))
+s.bind(('192.168.104.103',4567))
 num=2
 s.listen(num)
 print("listening...")
